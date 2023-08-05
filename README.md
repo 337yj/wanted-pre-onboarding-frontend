@@ -23,7 +23,7 @@ npm start
 
 ```
 📂 src
-   ├─ api
+   ├─ api # 서버 요청 api
    │  ├─ Auth
    │  ├─ Todo
    │  └─ apiClient.ts
@@ -33,18 +33,18 @@ npm start
    │     └─ Header
    │  
    ├─ context
-   │  └─ AuthContext.tsx # 사용자 인증 컨텍스트
+   │  └─ AuthContext.tsx # access token 관리 컨텍스트
    │ 
    ├─ pages
    │  ├─ Auth
    │  │  ├─ AuthInput
    │  │  ├─ SignIn # 로그인 페이지
    │  │  ├─ SignUp # 회원가입 페이지
-   │  │  └─ validation # 유효성 검사
+   │  │  └─ validation # 유효성 검사 로직
    │  │ 
    │  ├─ NotFound
    │  │  
-   │  ├─ ProtectedRoute # 페이지 접근 제어
+   │  ├─ ProtectedRoute # access token 유무에 따른 페이지 접근 제어
    │  │  
    │  └─ TodoList # 투두리스트 페이지
    │     └─ TodoItem
