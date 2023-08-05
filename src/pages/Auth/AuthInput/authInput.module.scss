@@ -1,0 +1,29 @@
+@use "../../../styles/constants/" as c;
+@use "../../../styles/mixins/" as m;
+
+.wrapper {
+  @include m.flex(center, start, column);
+
+  .textWrap {
+    @include m.flex();
+    margin-bottom: 8px;
+
+    > label {
+      padding-right: 8px;
+      font-size: 14px;
+    }
+
+    .errorText {
+      font-size: 12px;
+      line-height: 1.6;
+      color: c.$C_RED;
+    }
+  }
+
+  > input {
+    margin-bottom: 18px;
+    padding: 8px;
+    border: 1px solid c.$C_LIGHTGRAY;
+    border-radius: 8px;
+  }
+}

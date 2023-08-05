@@ -1,0 +1,33 @@
+@use "../../../styles/constants/" as c;
+@use "../../../styles/mixins/" as m;
+
+.wrapper {
+  @include m.flex(center, center, column);
+  width: 100vw;
+  height: 100vh;
+
+  > h1 {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  > form {
+    padding: 50px 40px;
+    border: 1px solid c.$C_LIGHTGRAY;
+    border-radius: 16px;
+
+    > button {
+      padding: 6px 10px;
+      border-radius: 8px;
+      background-color: c.$C_GREEN;
+      color: c.$C_WHITE;
+      cursor: pointer;
+
+      &:disabled {
+        background-color: c.$C_LIGHTGRAY;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
