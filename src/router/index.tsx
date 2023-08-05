@@ -1,6 +1,7 @@
 import {
   createBrowserRouter,
   createRoutesFromElements,
+  Navigate,
   Route,
 } from "react-router-dom";
 import { Layout } from "../components";
@@ -16,7 +17,8 @@ const router = (
   <Route element={<Layout />}>
     <Route path="/signin" element={<SignInPage />} />
     <Route path="/signup" element={<SignUpPage />} />
-    <Route path="/" element={<ProtectedRoute />}>
+    <Route element={<ProtectedRoute />}>
+      <Route path="/" element={<Navigate to="/todo" replace />} />
       <Route path="/todo" element={<TodoListPage />} />
     </Route>
     <Route path="*" element={<NotFoundPage />} />
