@@ -16,3 +16,5 @@ npm start
 ```
 
 ## 배포링크
+
+🔗 http://wanted-todo-app.s3-website.ap-northeast-2.amazonaws.com
