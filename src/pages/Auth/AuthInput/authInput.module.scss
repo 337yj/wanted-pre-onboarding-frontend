@@ -2,7 +2,7 @@
 @use "../../../styles/mixins/" as m;
 
 .wrapper {
-  @include m.flex(center, start, column);
+  @include m.flex(center, flex-start, column);
 
   .textWrap {
     @include m.flex();

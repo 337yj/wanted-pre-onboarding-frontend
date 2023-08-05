@@ -1,0 +1,62 @@
+@use "../../../styles/mixins" as m;
+@use "../../../styles/constants" as c;
+
+.wrapper {
+  @include m.flex(flex-start);
+  margin: 12px 0;
+  width: 100%;
+
+  input[type="checkbox"] {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    border-radius: 50%;
+    border: 2px solid c.$C_GREEN;
+    appearance: none;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"]::before {
+    content: "\2714";
+    position: absolute;
+    top: 0%;
+    left: 16%;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    color: c.$C_GREEN;
+
+    visibility: hidden;
+  }
+
+  input[type="checkbox"]:checked::before {
+    visibility: visible;
+  }
+
+  .editForm {
+    @include m.flex(flex-start);
+    flex-grow: 1;
+
+    .editInput {
+      width: 30vw;
+      padding: 10px;
+      margin-right: 16px;
+      border: 1px solid c.$C_LIGHTGRAY;
+      border-radius: 8px;
+    }
+  }
+
+  .icon {
+    padding: 0px 2px;
+    color: c.$C_GREEN;
+  }
+
+  > span {
+    margin-right: 16px;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
