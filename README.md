@@ -31,15 +31,15 @@ npm start
 
 <table>
  <tr>
-    <td align="center"><b>회원가입</b></td>
-    <td align="center"><b>로그인</b></td>		
+    <td ><b>회원가입</b></td>
+    <td ><b>로그인</b></td>		
   </tr>
   <tr>
     <td>   
-      <img height="260px" width="100%" src="https://github.com/337yj/wanted-pre-onboarding-frontend/assets/110447844/27aebcc4-313f-4cb3-a511-d5e1025b46b4" />
+      <img width="75%" src="https://github.com/337yj/wanted-pre-onboarding-frontend/assets/110447844/27aebcc4-313f-4cb3-a511-d5e1025b46b4" />
     </td>
     <td>   
-      <img  height="260px" width="100%" src="https://github.com/337yj/wanted-pre-onboarding-frontend/assets/110447844/c58cd46f-6939-4a6d-89c5-068cd8858434" />
+      <img  width="100%" src="https://github.com/337yj/wanted-pre-onboarding-frontend/assets/110447844/c58cd46f-6939-4a6d-89c5-068cd8858434" />
     </td>
   </tr>
   <tr>
@@ -55,15 +55,15 @@ npm start
     </td>		
 </tr>
  <tr>
-    <td align="center"><b>TODO 추가</b></td>
-    <td align="center"><b>TODO 수정</b></td>		
+    <td ><b>TODO 추가</b></td>
+    <td ><b>TODO 수정</b></td>		
   </tr>
   <tr>
     <td>   
-      <img  height="260px" width="100%" src="https://github.com/337yj/wanted-pre-onboarding-frontend/assets/110447844/d052f3dc-f87b-4e3c-8005-acdca422e2c9" />
+      <img   width="75%" src="https://github.com/337yj/wanted-pre-onboarding-frontend/assets/110447844/d052f3dc-f87b-4e3c-8005-acdca422e2c9" />
     </td>
     <td>   
-      <img  height="260px" width="100%" src="https://github.com/337yj/wanted-pre-onboarding-frontend/assets/110447844/988a5dd9-05cc-4b95-959a-69c12529ee3a" />
+      <img   width="100%" src="https://github.com/337yj/wanted-pre-onboarding-frontend/assets/110447844/988a5dd9-05cc-4b95-959a-69c12529ee3a" />
     </td>
   </tr>
   <tr>
