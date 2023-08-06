@@ -60,7 +60,7 @@ npm start
   </tr>
   <tr>
     <td>   
-      <img   width="75%" src="https://github.com/337yj/wanted-pre-onboarding-frontend/assets/110447844/d052f3dc-f87b-4e3c-8005-acdca422e2c9" />
+      <img   width="75%" src="https://github.com/337yj/wanted-pre-onboarding-frontend/assets/110447844/7e602650-9225-423a-8c36-6a4a44b5691f" />
     </td>
     <td>   
       <img   width="100%" src="https://github.com/337yj/wanted-pre-onboarding-frontend/assets/110447844/988a5dd9-05cc-4b95-959a-69c12529ee3a" />
