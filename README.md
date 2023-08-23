@@ -100,7 +100,7 @@ npm start
    │  │  ├─ SignUp # 회원가입 페이지
    │  │  └─ validation # 유효성 검사 로직
    │  ├─ NotFound 
-   │  ├─ ProtectedRoute # access token 유무에 따른 페이지 접근 제어
+   │  ├─ Redirect # access token 유무에 따른 리다이렉트
    │  └─ TodoList # 투두리스트 페이지
    │     └─ TodoItem
    │  

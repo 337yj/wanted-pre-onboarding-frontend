@@ -37,12 +37,11 @@ const TodoList = () => {
     onGetTodos();
   }, []);
 
-  const timeElapsed = Date.now();
-  const today = new Date(timeElapsed);
-
+  const today = new Date();
   const formattedDate = `${today.getFullYear()}년 ${
     today.getMonth() + 1
   }월 ${today.getDate()}일`;
+  console.log(formattedDate);
 
   return (
     <section className={styles.wrapper}>

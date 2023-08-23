@@ -8,7 +8,7 @@ import { FormErrors, validateForm } from "../validation/validateForm";
 import styles from "./signIn.module.scss";
 
 const SignInPage = () => {
-  const { token, saveToken } = useContext(useAuthContext);
+  const { saveToken } = useContext(useAuthContext);
   const navigate = useNavigate();
   const [isFormValid, setIsFormValid] = useState(false);
   const [form, setForm] = useState<UserAuth>({
@@ -58,12 +58,6 @@ const SignInPage = () => {
       }
     }
   };
-
-  useEffect(() => {
-    if (token) {
-      navigate(`/todo`);
-    }
-  }, []);
 
   return (
     <main className={styles.wrapper}>

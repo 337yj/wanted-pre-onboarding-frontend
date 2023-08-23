@@ -8,7 +8,6 @@ import { FormErrors, validateForm } from "../validation/validateForm";
 import styles from "./signUp.module.scss";
 
 const SignUpPage = () => {
-  const { token } = useContext(useAuthContext);
   const navigate = useNavigate();
   const [isFormValid, setIsFormValid] = useState(false);
   const [form, setForm] = useState<UserAuth>({
@@ -59,12 +58,6 @@ const SignUpPage = () => {
     }
     setForm({ email: "", password: "" });
   };
-
-  useEffect(() => {
-    if (token) {
-      navigate(`/todo`);
-    }
-  }, []);
 
   return (
     <main className={styles.wrapper}>
